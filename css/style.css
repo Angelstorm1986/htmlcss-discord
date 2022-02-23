@@ -11,7 +11,7 @@ colore titoli footer #697ec6 */
 .debug{
     border: 1px solid red;
 }
-.clearfix::after{
+.clearfix:after{
     content: '';
     display: table;
     clear: both;
@@ -74,7 +74,7 @@ nav #accedi{
     display: inline;
 }
 
-Main
+/* Main */
 #jumbotron{
     background-image: url(../img/jumbo.png);
     background-size: cover;
@@ -127,11 +127,12 @@ Main
     float: left;
     height: 700px;
     padding-top: 100px;
-    padding-left:150px;
+    padding-left:100px;
 }
 .text-left{
     float: left;
     text-align: center;
+    padding: 10px 10px;
 }
 .image-left div h2{
     font-size: 50px;
@@ -139,3 +140,24 @@ Main
 .image-left div p{
     font-size: smaller;
 }
+.image-right{
+    min-height: 830px;
+}
+.image-right div img{
+    float: right;
+    height: 700px;
+    padding-top: 100px;
+    padding-right:100px;
+}
+.image-right{
+    float: right;
+    text-align: center;
+    padding: 10px 10px;
+}
+.image-right div h2{
+    font-size: 50px;
+}
+.image-right div p{
+    font-size: smaller;
+}
+
