@@ -113,11 +113,30 @@ Main
     color: #fff;
     display: inline;
 }
-
 .wave-top{
     color: rgb(226, 224, 224);
 }
 .wave-bottom{
     color: rgb(226, 224, 224);
     transform: rotate(180deg);
+}
+.image-left{
+    min-height: 830px;
+}
+.image-left div{
+    display: inline-block;
+}
+.image-left div img{
+    height: 700px;
+    padding-top: 100px;
+    padding-left:150px;
+}
+.text-left{
+    text-align: center;
+}
+.image-left div h2{
+    font-size: 50px;
+}
+.image-left div p{
+    font-size: smaller;
 }
