@@ -73,12 +73,51 @@ nav #accedi{
     color: #23272a;
     display: inline;
 }
+
+Main
 #jumbotron{
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    min-height: 580px;
+    min-height: 830px;
 }
 #jumbotron .container{
     text-align: center;
     max-width: 1130px;
+}
+#jumbotron .container h1{
+    padding-top: 60px;
+    font-size: 80px;
+    color: white;
+}
+#jumbotron .container p{
+    padding-top: 40px;
+    line-height: 40px;
+    color: white;
+}
+#scarica{
+    display: inline-block;
+    padding: 16px 0;
+    margin-top: 100px;
+}
+#scarica .btn{
+    background-color: #fff;
+    color: #23272a;
+    display: inline;
+}
+#apri{
+    display: inline-block;
+    margin-left: 60px;
+}
+#apri .btn{
+    background-color: #23272a;
+    color: #fff;
+    display: inline;
+}
+
+.wave-top{
+    color: rgb(226, 224, 224);
+}
+.wave-bottom{
+    color: rgb(226, 224, 224);
+    transform: rotate(180deg);
 }
