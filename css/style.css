@@ -19,6 +19,7 @@ colore titoli footer #697ec6 */
 body{
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
+    min-width: 2000px;
 }
 .container{
     width: 80%;
@@ -31,6 +32,14 @@ body{
     background-color: #8ea1e1;
     color: #fff;
     text-decoration: none;
+}
+h2{
+    font-size: 50px;
+}
+p{
+    font-size: smaller;
+    padding-top: 20px;
+    line-height: 35px;
 }
 
 /* Header */
@@ -94,12 +103,12 @@ nav #accedi{
     line-height: 40px;
     color: white;
 }
-#scarica{
+.scarica{
     display: inline-block;
     padding: 16px 0;
     margin-top: 100px;
 }
-#scarica .btn{
+.scarica .btn{
     background-color: #fff;
     color: #23272a;
     display: inline;
@@ -115,6 +124,7 @@ nav #accedi{
 }
 .wave-top{
     color: rgb(226, 224, 224);
+    margin-bottom: -8px;
 }
 .wave-bottom{
     color: rgb(226, 224, 224);
@@ -125,39 +135,59 @@ nav #accedi{
 }
 .image-left div img{
     float: left;
-    height: 700px;
+    width: 60%;
+    height: 600px;
     padding-top: 100px;
     padding-left:100px;
 }
 .text-left{
     float: left;
-    text-align: center;
-    padding: 10px 10px;
+    width: 40%;
+    text-align: left;
+    padding: 140px 180px;
 }
-.image-left div h2{
-    font-size: 50px;
-}
-.image-left div p{
-    font-size: smaller;
+.center{
+    background-color: rgb(226, 224, 224);
 }
 .image-right{
     min-height: 830px;
 }
 .image-right div img{
-    float: right;
+    float: left;
+    width: 60%;
     height: 700px;
-    padding-top: 100px;
-    padding-right:100px;
+    
 }
-.image-right{
-    float: right;
+.text-right{
+    float: left;
+    width: 40%;
+    text-align: left;
+    padding: 140px 140px;
+}
+.sec-bottom{
+    height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+}
+#title{
     text-align: center;
-    padding: 10px 10px;
+    padding: 100px 200px;
 }
-.image-right div h2{
+.image-bottom div img{
+    height: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+#stars{
     font-size: 50px;
+    text-align: center;
 }
-.image-right div p{
-    font-size: smaller;
+#stars img{
+    width: 60%;
+    margin: 0 auto;
+    height: 100%;
 }
-
+.container div a{
+    display: block;
+    margin: 10px 530px;
+}
