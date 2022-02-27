@@ -103,24 +103,23 @@ nav #accedi{
     line-height: 40px;
     color: white;
 }
-.scarica{
-    display: inline-block;
-    padding: 16px 0;
+#scarica{
     margin-top: 100px;
+    display: inline-block;
 }
-.scarica .btn{
+#scarica .btn{
+    padding: 16px 32px;
     background-color: #fff;
     color: #23272a;
-    display: inline;
 }
 #apri{
-    display: inline-block;
+    
     margin-left: 60px;
+    display: inline-block;
 }
 #apri .btn{
     background-color: #23272a;
     color: #fff;
-    display: inline;
 }
 .wave-top{
     color: rgb(226, 224, 224);
@@ -168,10 +167,14 @@ nav #accedi{
     height: 100vh;
     width: 80%;
     margin: 0 auto;
+    min-height: 1300px;
 }
 #title{
     text-align: center;
     padding: 100px 200px;
+}
+.image-bottom{
+    text-align: center;
 }
 .image-bottom div img{
     height: 600px;
@@ -183,11 +186,70 @@ nav #accedi{
     text-align: center;
 }
 #stars img{
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
     height: 100%;
 }
-.container div a{
-    display: block;
-    margin: 10px 530px;
+#btn-bottom{
+    padding-top: 50px;
+}
+
+/* Footer */
+.foot{
+    background-color: black;
+}
+.foot-help{
+    width: 100%;
+    height: 700px;
+    min-width: 2100px;
+    border-bottom: 1px solid #8ea1e1;
+}
+.foot-head{
+    width: 25%;
+    padding-bottom: 100px;
+} 
+.fa-angle-down, .fa-twitter, .fa-instagram, .fa-facebook, .fa-youtube{
+    color: white;
+    padding: 0 10px;
+}
+.foot-deco{
+    display: inline-block;
+    padding: 50px 30px;
+    text-align: left;
+    color: white;
+    vertical-align: top;
+}
+.foot-deco h3, .foot-deco h4{
+    color: #8ea1e1;
+}
+.foot-deco h3{
+    font-size: 50px;
+}
+.foot-deco h4{
+    font-size: 30px;
+}
+.foot-deco ul{
+    list-style-type: none;
+}
+.foot-lang{
+    display: inline-block;
+    text-align: left;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.foot-lang p{
+    display: inline-block;
+    padding: 0 5px;
+}
+.foot-nav{
+    height: 100px;
+    line-height: 100px;
+}
+.foot-nav .logo{
+    width: 90%;
+}
+#scarica-ora a{
+    display: inline-block;
+    color: white;
 }
